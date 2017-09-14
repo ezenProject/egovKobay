@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h3> Test Page1234</h3>
+<h3> Test Page</h3>
 <hr/>
 부서번호 : ${dept.deptno}
 부서명 : ${dept.dname}
