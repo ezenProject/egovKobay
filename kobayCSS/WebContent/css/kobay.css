@@ -1,0 +1,67 @@
+/* menu navigation height setting */
+.subnav {
+   	padding-top: 136px;
+}
+@media (min-width: 576px) {
+    .subnav {
+        padding-top: 68px;
+    }
+}
+/* menu navigation height setting end  */
+
+.bg-blue {
+	background-color: #56B6E6!important;
+}
+.navbar-default {
+	background-color: #000000;
+	border-color: #e7e7e7;
+}
+.navbar-default .navbar-brand {
+  	color: #fff;
+}
+.navbar-static-top {
+	z-index: 1000;
+	border-width: 0 0 1px;
+}
+ .navbar-static-top {
+    padding-right: 0;
+    padding-left: 0;
+}
+.carousel-item {
+    height: 65vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.portfolio-item {
+    margin-bottom: 30px;
+}
+.search-input {
+	border-radius: 0rem 0.75rem 0.75rem 0rem !important;
+	border: 0px solid transparent;
+	outline: none;
+	padding: 0.75rem 0.75rem 0.75rem 0rem;
+	text-align: center!important;
+}
+.search-btn {
+	border: 1px solid transparent;
+	border-radius: 0.75rem 0rem 0rem 0.75rem !important;
+	padding: 0.75rem;
+	background: #fff;
+}
+.input-group-btn {
+	border-radius: 0.75rem;
+}
+.top-icon {
+	margin: 0.75rem;
+}
+.logo {
+	text-decoration: blink;
+	font-size: 1.45rem;
+	font-weight: bolder;
+	font-family: inherit;
+	margin: 0px;
+}
