@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-kobay main
+kobay main 이걸 바꿨지롱
 </body>
 </html>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN" "http://ibatis.apache.org/dtd/sql-map-2.dtd" >
+<sqlMap namespace="kobaySQL">
+	
+	<typeAlias alias="kobayVO" type="kobay.com.service.KobayVO"/>
+	
+	<insert id="kobayDAO.insertWrite">
+		insert into auction(
+							member_unq,
+							auction_unq,
+							category,
+							sdate,
+							edate,
+							title,
+							image,
+							sprice,
+							deliveryway,
+							deliverypee,
+							seller,
+							sellerphone,
+							detail,
+							auction_del	)
+					
+					values(
+					#member_unq#,
+					auction_seq.nextval,
+					#category#,
+					#sdate#,
+					#edate#,
+					#title#,
+					#image#,
+					#sprice#,
+					#deliveryway#,
+					#deliverypee#,
+					#seller#,
+					#sellerphone#,
+					#detail#,
+					#auction_del#	
+					)
+					
+
+	</insert>
+	
+</sqlMap>
